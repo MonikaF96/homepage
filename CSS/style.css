@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to right top, #e1d2cb, #e9dcdb, #efe7e9, #f5f2f5, #fdfdfd);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    line-height: 2;
+    padding: 10px;
+}
+
+.mainHeader {
+    color: rgba(76, 76, 83);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.image {
+    display: block;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 25%;
+}
+.hiddenImage {
+    display: none;
+}
+
+.subHeader {
+    border-radius: 8px;
+    border: solid rgba(76, 76, 83);
+    color: rgba(76, 76, 83);
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.list {
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;
+    border: solid rgba(76, 76, 83);
+}
+
+.listItem {
+    margin: 10px;
+    list-style: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.link {
+    max-width: 20px;
+    text-decoration: none;
+    color: rgba(76, 76, 83);
+}
+
+
+.table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 600px;
+    overflow-x: auto;
+}
+
+.tableCell {
+    border: 2px solid rgba(76, 76, 83);
+    padding: 10px;
+}
+
+.caption {
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(76, 76, 83);
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid rgba(76, 76, 83);
+    padding: 8px;
+}
+
+.tableHeader {
+    background-color: rgba(218, 199, 214, 0.5);
+    color: rgba(76, 76, 83);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even) {
+    background: rgba(221, 211, 219, 0.5);
+}
+
+.tableRow:hover {
+    background: rgba(218, 202, 214, 0.5);
+}
+
+.footer {
+    margin: 30px auto;
+    font-size: 13px;
+}
+
+.button {
+    border-radius: 8px;
+    border: solid rgb(3, 3, 54);
+    margin: 20px;
+    padding: 14px;
+    color: honeydew;
+    background-color: rgb(76, 76, 83);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: rgb(71, 48, 62);
+}
+.newColor {
+    color: rgb(165, 19, 82);
+}
